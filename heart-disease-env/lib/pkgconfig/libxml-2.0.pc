@@ -1,0 +1,13 @@
+prefix=/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.10.3
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env/lib -lz -L/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env/lib -llzma -lpthread -L/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env/lib -liconv -L/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env/lib -licui18n -licuuc -licudata   
+Cflags: -I${includedir}/libxml2 -I/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env/include 

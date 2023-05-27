@@ -1,0 +1,13 @@
+prefix=/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env
+exec_prefix=/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env
+libdir=/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env/lib
+sharedlibdir=/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env/lib
+includedir=/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

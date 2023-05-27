@@ -1,0 +1,14 @@
+prefix=/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env
+exec_prefix=/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env
+libdir=/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env/lib
+includedir=/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 24.3.18
+Requires: 
+Requires.private: 
+Libs: -L/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env/lib -lfreetype
+Libs.private: -lz -L/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env/lib -lpng16 -lz
+Cflags: -I${includedir}/freetype2

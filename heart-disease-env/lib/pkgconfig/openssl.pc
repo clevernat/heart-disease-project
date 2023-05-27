@@ -1,0 +1,9 @@
+prefix=/Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 1.1.1t
+Requires: libssl libcrypto

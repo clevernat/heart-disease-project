@@ -131,3 +131,13 @@
 +defaults/osx-arm64::zlib-1.2.13-h5a0b063_0
 +defaults/osx-arm64::zstd-1.5.5-hd90d995_0
 # update specs: ['pandas', 'matplotlib', 'numpy', 'seaborn', 'notebook']
+==> 2023-06-02 16:19:25 <==
+# cmd: /Users/nat/miniconda3/bin/conda install --yes --prefix /Users/nat/Desktop/main/machine-learning/heart-disease-project/heart-disease-env -c anaconda scikit-learn
+# conda version: 23.1.0
+-defaults/osx-arm64::ca-certificates-2023.01.10-hca03da5_0
++anaconda/noarch::threadpoolctl-2.2.0-pyh0d69192_0
++anaconda/osx-arm64::ca-certificates-2022.4.26-hca03da5_0
++defaults/osx-arm64::joblib-1.2.0-py311hca03da5_0
++defaults/osx-arm64::scikit-learn-1.2.2-py311h313beb8_1
++defaults/osx-arm64::scipy-1.9.3-py311hc76d9b0_2
+# update specs: ['scikit-learn']
